@@ -1,0 +1,11 @@
+# name = input("請輸入姓名:")
+# engh = input("請輸入成績:")
+# print("name資料型態",type(name))
+# print("engh資料型態",type(engh))
+
+print("歡迎使用成績輸入系統")
+name = input("請輸入姓名:")
+engh = input("請輸入英文成績:")
+math = input("請剸入數學成績:")
+total = int(engh)+int(math)
+print("%s你的總分 %d" %(name,total))
